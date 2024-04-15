@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+    <title>Adicionar</title>
+</head>
+<body>
+    <header class="header-container">
+        <h1>Adicionar</h1>
+    </header>
+    <main class="main1">
+        <form action="/" method="POST">
+            <div class="valor">
+                <h3>Valor:</h3>
+                <input type="number" name="valor">
+            </div>
+            <div class="desc">
+                <h3>Descrição</h3>
+                <input type="text" name="descricao">
+            </div>
+            <div class="btn2">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
